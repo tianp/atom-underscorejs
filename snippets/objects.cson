@@ -1,6 +1,6 @@
 ".source.js":
   "_.keys":
-    "prefix": "_key"
+    "prefix": "_keys"
     "body": "_.keys( ${1:object} )"
   "_.values":
     "prefix": "_val"
@@ -9,8 +9,8 @@
     "prefix": "_fn"
     "body": "_.functions( ${1:object} )"
   "_.extend":
-    "prefix": "_key"
-    "body": "_.keys( ${1:object} )"
+    "prefix": "_ext"
+    "body": "_.extend( ${1:object} )"
   "_.defaults":
     "prefix": "_def"
     "body": "_.defaults( ${1:object}, ${2:defaults} )"
@@ -21,7 +21,7 @@
     "prefix": "_has"
     "body": "_.has( ${1:object}, ${2:key} )"
   "_.property":
-    "prefix": "_pro"
+    "prefix": "_prop"
     "body": "_.property( ${1:key} )"
   "_.isEqual":
     "prefix": "_iseq"
@@ -60,7 +60,7 @@
     "prefix": "_isdate"
     "body": "_.isDate( ${1:object} )"
   "_.isRegexp":
-    "prefix": "_isReg"
+    "prefix": "_isreg"
     "body": "_.isRegexp( ${1:object} )"
   "_.isNaN":
     "prefix": "_isnan"
