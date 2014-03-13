@@ -1,0 +1,16 @@
+".source.js":
+    "_.first":
+      "prefix": "_fi"
+      "body": """
+      _.first( ${1:array} )
+      """
+    "_.last":
+      "prefix": "_la"
+      "body": """
+      _.first( ${1:array} )
+      """
+    "_.indexOf":
+      "prefix": "_io"
+      "body": """
+      _.indexOf( ${1:array}, ${2:value} )
+      """
