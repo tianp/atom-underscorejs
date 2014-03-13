@@ -19,7 +19,6 @@ Say a hello! hello@tianpermana.com
 [ _map ]	_.map
 [ _sort ]	_.sortBy
 [ _size ] 	_.size
-
 ```
 
 ### Arrays
@@ -28,7 +27,6 @@ Say a hello! hello@tianpermana.com
 [ _first ]	_.first
 [ _last ]	_.last
 [ _io ]		_.indexOf
-
 ```
 
 
@@ -39,7 +37,7 @@ Say a hello! hello@tianpermana.com
 [ _val	]	_.values
 [ _fn	]	_.functions
 [ _ext ]	_.extend
-[ _def ] _.defaults
+[ _def ]  _.defaults
 [ _clo ]	_.clone
 [ _has ]	_.has
 [ _prop ]	_.property
@@ -59,7 +57,6 @@ Say a hello! hello@tianpermana.com
 [ _isnan ]	_.isNaN
 [ _isnull ]	_.isNull
 [ _isu ]	_.isUndefined
-
 ```
 
 ## License
