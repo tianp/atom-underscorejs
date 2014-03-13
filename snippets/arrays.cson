@@ -1,11 +1,11 @@
 ".source.js":
     "_.first":
-      "prefix": "_fi"
+      "prefix": "_first"
       "body": """
       _.first( ${1:array} )
       """
     "_.last":
-      "prefix": "_la"
+      "prefix": "_last"
       "body": """
       _.last( ${1:array} )
       """
