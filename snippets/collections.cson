@@ -19,6 +19,46 @@
 
       })
       """
+  "_.find":
+    "prefix": "_find"
+    "body": """
+    _.find( ${1:list}, ${2:predicate} )
+    """
+  "_.filter":
+    "prefix": "_fil"
+    "body": """
+    _.filter( ${1:list}, ${2:predicate} )
+    """
+  "_.where":
+    "prefix": "_whe"
+    "body": """
+    _.where( ${1:list}, ${2:properties} )
+    """
+  "_.every":
+    "prefix": "_ev"
+    "body": """
+    _.every( ${1:list}, ${2:predicate})
+    """
+  "_.some":
+    "prefix": "_some"
+    "body": """
+    _.some( ${1:list}, ${2:predicate} )
+    """
+  "_.contains":
+    "prefix": "_con"
+    "body": """
+    _.contains( ${1:list}, ${2:value} )
+    """
+  "_.max":
+    "prefix": "_max"
+    "body": """
+    _.max( ${1:list}, ${2:iterator} )
+    """
+  "_.min":
+    "prefix": "_min"
+    "body": """
+    _.min( ${1:list}, ${2:iterator} )
+    """
   "_.sortBy":
     "prefix": "_sort"
     "body": """
@@ -30,6 +70,20 @@
 
     })
     """
+  "_.groupBy":
+    "prefix": "_gr"
+    "body": """
+    _.groupBy( ${1:list}, function( ${2:list} ){
+
+        ${3:// build iterator here}
+
+        return ${3:list}
+
+    })
+    """
   "_.size":
     "prefix": "_size"
     "body": "_.size( ${1:list} )"
+  "_.toArray":
+    "prefix": "_toa"
+    "body": "_.toArray( ${1:list} )"
