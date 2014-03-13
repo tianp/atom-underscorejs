@@ -1,7 +1,73 @@
 ".source.js":
-    "_.isUndefined":
-      "prefix": "_isu"
-      "body": "_.isUndefined( ${1:value} )"
-    "_.isEmpty":
-      "prefix": "_ise"
-      "body": "_.isEmpty( ${1:object} )"
+  "_.keys":
+    "prefix": "_key"
+    "body": "_.keys( ${1:object} )"
+  "_.values":
+    "prefix": "_val"
+    "body": "_.values( ${1:object} )"
+  "_.functions":
+    "prefix": "_fn"
+    "body": "_.functions( ${1:object} )"
+  "_.extend":
+    "prefix": "_key"
+    "body": "_.keys( ${1:object} )"
+  "_.defaults":
+    "prefix": "_def"
+    "body": "_.defaults( ${1:object}, ${2:defaults} )"
+  "_.clone":
+    "prefix": "_clo"
+    "body": "_.clone( ${1:object} )"
+  "_.has":
+    "prefix": "_has"
+    "body": "_.has( ${1:object}, ${2:key} )"
+  "_.property":
+    "prefix": "_pro"
+    "body": "_.property( ${1:key} )"
+  "_.isEqual":
+    "prefix": "_iseq"
+    "body": "_.isEqual( ${1:object}, ${2:other} )"
+  "_.isEmpty":
+    "prefix": "_ise"
+    "body": "_.isEmpty( ${1:object} )"
+  "_.isElement":
+    "prefix": "_isel"
+    "body": "_.isElement( ${1:object} )"
+  "_.isArray":
+    "prefix": "_isa"
+    "body": "_.isArray( ${1:object} )"
+  "_.isObject":
+    "prefix": "_iso"
+    "body": "_.isObject( ${1:object} )"
+  "_.isArguments":
+    "prefix": "_isarg"
+    "body": "_.isArguments( ${1:object} )"
+  "_.isFunction":
+    "prefix": "_isfn"
+    "body": "_.isFunction( ${1:object} )"
+  "_.isString":
+    "prefix": "_istr"
+    "body": "_.isString( ${1:object} )"
+  "_.isNumber":
+    "prefix": "_isnum"
+    "body": "_.isNumber( ${1:object} )"
+  "_.isFinite":
+    "prefix": "_isfin"
+    "body": "_.isFinite( ${1:object} )"
+  "_.isBoolean":
+    "prefix": "_isbool"
+    "body": "_.isBoolean( ${1:object} )"
+  "_.isDate":
+    "prefix": "_isdate"
+    "body": "_.isDate( ${1:object} )"
+  "_.isRegexp":
+    "prefix": "_isReg"
+    "body": "_.isRegexp( ${1:object} )"
+  "_.isNaN":
+    "prefix": "_isnan"
+    "body": "_.isNaN( ${1:object} )"
+  "_.isNull":
+    "prefix": "_isnull"
+    "body": "_.isNull( ${1:object} )"
+  "_.isUndefined":
+    "prefix": "_isu"
+    "body": "_.isUndefined( ${1:value} )"
