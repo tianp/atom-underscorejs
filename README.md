@@ -9,7 +9,7 @@ If you still insist to use this snippets before published, download and put this
 Say a hello! hello@tianpermana.com
 
 
-## Current Supported Snippets
+## Current Supported Snippets [v0.1.0]
 
 ### Collections
 
