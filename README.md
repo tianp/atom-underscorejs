@@ -17,7 +17,17 @@ Say a hello! hello@tianpermana.com
 ```
 [ _each ] 	_.each
 [ _map ]	_.map
+[ _find ]	_.find
+[ _fil ]	_.filter
+[ _whe ]	_.where
+[ _ev ]		_.every
+[ _some ]	_.some
+[ _con ]	_.contains
+[ _max ]	_.max
+[ _min ]	_.min
 [ _sort ]	_.sortBy
+[ _gr ]		_.groupBy
+[ _toa ]	_.toArray
 [ _size ] 	_.size
 ```
 
@@ -37,7 +47,7 @@ Say a hello! hello@tianpermana.com
 [ _val	]	_.values
 [ _fn	]	_.functions
 [ _ext ]	_.extend
-[ _def ]  _.defaults
+[ _def ]	_.defaults
 [ _clo ]	_.clone
 [ _has ]	_.has
 [ _prop ]	_.property
