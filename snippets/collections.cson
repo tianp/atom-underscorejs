@@ -1,6 +1,6 @@
 ".source.js":
   "_.each":
-      "prefix": "_ea"
+      "prefix": "_each"
       "body": """
       _.each( ${1:list}, function( ${2:element}, ${3:index}, $(4: list) ){
 
@@ -20,7 +20,7 @@
       })
       """
   "_.sortBy":
-    "prefix": "_so"
+    "prefix": "_sort"
     "body": """
     _.sortBy( ${1:list}, function( ${2:list} ){
 
@@ -31,5 +31,5 @@
     })
     """
   "_.size":
-    "prefix": "_si"
+    "prefix": "_size"
     "body": "_.size( ${1:list} )"
