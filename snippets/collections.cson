@@ -1,0 +1,16 @@
+".source.js":
+  "_.each":
+      "prefix": "_ea"
+      "body": """
+      _.each( ${1:objects}, function( ${2:element}, ${3:index} ){
+
+          ${4: // do something here}
+
+      })
+      """
+    "_.sortBy":
+      "prefix": "_so"
+      "body": "_.sortBy( ${1:list}, ${2:iterator} )"
+    "_.size":
+      "prefix": "_si"
+      "body": "_.size( ${1:list} )"

@@ -1,4 +1,3 @@
-atom-underscorejs
-=================
+# Atom Underscore.js Snippets
 
-Underscore.js Snippets for Atom.io
+Speed up your javascript coding time with Underscore.js snippets.

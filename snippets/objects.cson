@@ -1,0 +1,7 @@
+".source.js":
+    "_.isUndefined":
+      "prefix": "_isu"
+      "body": "_.isUndefined( ${1:value} )"
+    "_.isEmpty":
+      "prefix": "_ise"
+      "body": "_.isEmpty( ${1:object} )"
