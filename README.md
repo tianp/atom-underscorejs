@@ -8,6 +8,60 @@ If you still insist to use this snippets before published, download and put this
 
 Say a hello! hello@tianpermana.com
 
+
+## Current Supported Snippets
+
+### Collections
+
+
+```
+[ _each ] 	_.each
+[ _map ]	_.map
+[ _sort ]	_.sortBy
+[ _size ] 	_.size
+
+```
+
+### Arrays
+
+```
+[ _first ]	_.first
+[ _last ]	_.last
+[ _io ]		_.indexOf
+
+```
+
+
+### Objects
+
+```
+[ _keys ]	_.keys
+[ _val	]	_.values
+[ _fn	]	_.functions
+[ _ext ]	_.extend
+[ _def ] _.defaults
+[ _clo ]	_.clone
+[ _has ]	_.has
+[ _prop ]	_.property
+[ _iseq ]	_.isEqual
+[ _ise ]	_.isEmpty
+[ _isel ]	_.isElement
+[ _isa ]	_.isArray
+[ _iso ]	_.isObject
+[ _isarg ]	_.isArguments
+[ _isfn ]	_.isFunction
+[ _istr ]	_.isString
+[ _isnum ]	_.isNumber
+[ _isfin ]	_.isFinite
+[ _isbool ]	_.isBoolean
+[ _isdate ]	_.isDate
+[ _isreg ]	_.isRegexp
+[ _isnan ]	_.isNaN
+[ _isnull ]	_.isNull
+[ _isu ]	_.isUndefined
+
+```
+
 ## License
 
 Copyright (c) 2014 Tian Permana
