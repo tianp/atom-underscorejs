@@ -19,6 +19,11 @@
 
       })
       """
+  "_.reduce":
+      "prefix": "_red"
+      "body": """
+      _.reduce( ${1:list}, ${2:iterator}, ${3:memo})
+      """
   "_.find":
     "prefix": "_find"
     "body": """
@@ -34,6 +39,16 @@
     "body": """
     _.where( ${1:list}, ${2:properties} )
     """
+  "_.findWhere":
+    "prefix": "_fw"
+    "body": """
+    _.findWhere( ${1:list}, ${2:properties} )
+    """
+  "_.reject":
+    "prefix": "_rej"
+    "body": """
+    _.reject( ${1:list}, ${2:predicate} )
+    """
   "_.every":
     "prefix": "_ev"
     "body": """
@@ -48,6 +63,16 @@
     "prefix": "_con"
     "body": """
     _.contains( ${1:list}, ${2:value} )
+    """
+  "_.invoke":
+    "prefix": "_inv"
+    "body": """
+    _.invoke( ${1:list}, ${2:methodName} )
+    """
+  "_.pluck":
+    "prefix": "_pl"
+    "body": """
+    _.pluck( ${1:list}, ${2:propertyName} )
     """
   "_.max":
     "prefix": "_max"
@@ -81,6 +106,34 @@
 
     })
     """
+  "_.indexBy":
+    "prefix": "_index"
+    "body": """
+    _.indexBy( ${1:list}, function( ${2:list} ){
+
+        ${3:// build iterator here}
+
+        return ${3:list}
+
+    })
+    """
+  "_.countBy":
+    "prefix": "_count"
+    "body": """
+    _.countBy( ${1:list}, function( ${2:list} ){
+
+        ${3:// build iterator here}
+
+        return ${3:list}
+
+    })
+    """
+  "_.shuffle":
+    "prefix": "_shuf"
+    "body": "_.shuffle( ${1:list} )"
+  "_.sample":
+    "prefix": "_sam"
+    "body": "_.sample( ${1:list} )"
   "_.size":
     "prefix": "_size"
     "body": "_.size( ${1:list} )"

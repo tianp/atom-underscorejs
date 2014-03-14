@@ -17,16 +17,25 @@ Say a hello! hello@tianpermana.com
 ```
 [ _each ] 	_.each
 [ _map ]	_.map
+[ _red ]	_.reduce
 [ _find ]	_.find
 [ _fil ]	_.filter
 [ _whe ]	_.where
+[ _fw ]		_.findWhere
+[ _rej ]	_.reject
 [ _ev ]		_.every
 [ _some ]	_.some
 [ _con ]	_.contains
+[ _inv ]	_.invoke
+[ _pl ]		_.pluck
 [ _max ]	_.max
 [ _min ]	_.min
 [ _sort ]	_.sortBy
 [ _gr ]		_.groupBy
+[ _index ]	_.indexBy
+[ _count ]	_.countBy
+[ _shuf ]	_.shuffle
+[ _sam ]	_.sample
 [ _toa ]	_.toArray
 [ _size ] 	_.size
 ```
