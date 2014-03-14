@@ -5,9 +5,21 @@
   "_.values":
     "prefix": "_val"
     "body": "_.values( ${1:object} )"
+  "_.pairs":
+    "prefix": "_pairs"
+    "body": "_.pairs( ${1:object} )"
+  "_.invert":
+    "prefix": "_invert"
+    "body": "_.invert( ${1:object} )"
   "_.functions":
     "prefix": "_fn"
     "body": "_.functions( ${1:object} )"
+  "_.pick":
+    "prefix": "_pick"
+    "body": "_.pick( ${1:object}, ${2:keys} )"
+  "_.omit":
+    "prefix": "_omit"
+    "body": "_.omit( ${1:object}, ${2:keys} )"
   "_.extend":
     "prefix": "_ext"
     "body": "_.extend( ${1:object} )"
@@ -17,9 +29,15 @@
   "_.clone":
     "prefix": "_clo"
     "body": "_.clone( ${1:object} )"
+  "_.tap":
+    "prefix": "_tap"
+    "body": "_.tap( ${1:object} )"
   "_.has":
     "prefix": "_has"
     "body": "_.has( ${1:object}, ${2:key} )"
+  "_.matches":
+    "prefix": "_mat"
+    "body": "_.matches( ${1:attrs} )"
   "_.property":
     "prefix": "_prop"
     "body": "_.property( ${1:key} )"

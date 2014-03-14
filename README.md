@@ -86,11 +86,17 @@ Say a hello! hello@tianpermana.com
 ```
 [ _keys ]	_.keys
 [ _val	]	_.values
-[ _fn	]	_.functions
+[ _pairs ]	_.pairs
+[ _invert ]	_.invert
+[ _fn ]		_.functions
+[ _pick ]	_.pick
+[ _omit ]	_.omit
 [ _ext ]	_.extend
 [ _def ]	_.defaults
 [ _clo ]	_.clone
+[ _tap ]	_.tap
 [ _has ]	_.has
+[ _mat ]	_.matches
 [ _prop ]	_.property
 [ _iseq ]	_.isEqual
 [ _ise ]	_.isEmpty
