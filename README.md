@@ -44,8 +44,23 @@ Say a hello! hello@tianpermana.com
 
 ```
 [ _first ]	_.first
+[ _init ]	_.initial
 [ _last ]	_.last
+[ _rest ]	_.rest
+[ _com ]	_.compact
+[ _flat ]	_.flatten
+[ _wo ]		_.without
+[ _part ]	_.partition
+[ _uni ]	_.union
+[ _int ]	_.intersection
+[ _diff ]	_.difference
+[ _uniq ]	_.uniq
+[ _zip ]	_.zip
+[ _obj ]	_.object
 [ _io ]		_.indexOf
+[ _lio ]	_.lastIndexOf
+[ _si ]		_.sortedIndex
+[ _range ]	_.range
 ```
 
 

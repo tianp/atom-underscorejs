@@ -4,13 +4,88 @@
       "body": """
       _.first( ${1:array} )
       """
+    "_.initial":
+      "prefix": "_init"
+      "body": """
+      _.initial( ${1:array} )
+      """
     "_.last":
       "prefix": "_last"
       "body": """
       _.last( ${1:array} )
       """
+    "_.rest":
+      "prefix": "_rest"
+      "body": """
+      _.rest( ${1:array} )
+      """
+    "_.compact":
+      "prefix": "_com"
+      "body": """
+      _.compact( ${1:array} )
+      """
+    "_.flatten":
+      "prefix": "_flat"
+      "body": """
+      _.flatten( ${1:array} )
+      """
+    "_.without":
+      "prefix": "_wo"
+      "body": """
+      _.without( ${1:array}, ${2:values} )
+      """
+    "_.partition":
+      "prefix": "_part"
+      "body": """
+      _.partition( ${1:array}, ${2:predicate} )
+      """
+    "_.union":
+      "prefix": "_uni"
+      "body": """
+      _.union( ${1:array} )
+      """
+    "_.intersection":
+      "prefix": "_int"
+      "body": """
+      _.intersection( ${1:array} )
+      """
+    "_.difference":
+      "prefix": "_diff"
+      "body": """
+      _.difference( ${1:array}, ${2:others} )
+      """
+    "_.uniq":
+      "prefix": "_uniq"
+      "body": """
+      _.uniq( ${1:array} )
+      """
+    "_.zip":
+      "prefix": "_zip"
+      "body": """
+      _.zip( ${1:array} )
+      """
+    "_.object":
+      "prefix": "_obj"
+      "body": """
+      _.object( ${1:list}, {2:values} )
+      """
     "_.indexOf":
       "prefix": "_io"
       "body": """
       _.indexOf( ${1:array}, ${2:value} )
+      """
+    "_.lastIndexOf":
+      "prefix": "_lio"
+      "body": """
+      _.lastIndexOf( ${1:array}, ${2:value} )
+      """
+    "_.sortedIndex":
+      "prefix": "_si"
+      "body": """
+      _.sortedIndex( ${1:list}, ${2:value} )
+      """
+    "_.range":
+      "prefix": "_range"
+      "body": """
+      _.range( ${1:start}, ${2:stop}, ${3:step} )
       """
