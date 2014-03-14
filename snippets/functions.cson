@@ -1,0 +1,40 @@
+".source.js":
+  "_.bind":
+    "prefix": "_b"
+    "body": "_.bind( ${1:function}, ${2:object} )"
+  "_.bindAll":
+    "prefix": "_ba"
+    "body": "_.bindAll( ${1:object}, ${2:methodNames} )"
+  "_.partial":
+    "prefix": "_pa"
+    "body": "_.partial( ${1:function}, ${2:arguments} )"
+  "_.memoize":
+    "prefix": "_memo"
+    "body": "_.memoize( ${1:function} )"
+  "_.delay":
+    "prefix": "_delay"
+    "body": "_.delay( ${1:function}, ${2:wait}, ${3:arguments} )"
+  "_.defer":
+    "prefix": "_defer"
+    "body": "_.defer( ${1:function}, ${2:arguments} )"
+  "_.throttle":
+    "prefix": "_throt"
+    "body": "_.defer( ${1:function}, ${2:wait}, ${3:arguments} )"
+  "_.debounce":
+    "prefix": "_deb"
+    "body": "_.debounce( ${1:function}, ${2:wait} )"
+  "_.once":
+    "prefix": "_once"
+    "body": "_.once( ${1:function} )"
+  "_.after":
+    "prefix": "_after"
+    "body": "_.after( ${1:count}, ${2:function} )"
+  "_.now":
+    "prefix": "_now"
+    "body": "_.now()"
+  "_.wrap":
+    "prefix": "_wrap"
+    "body": "_.wrap( ${1:function}, ${2:wrapper} )"
+  "_.compose":
+    "prefix": "_comp"
+    "body": "_.compose( ${1:function} )"

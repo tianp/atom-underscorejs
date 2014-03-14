@@ -63,6 +63,23 @@ Say a hello! hello@tianpermana.com
 [ _range ]	_.range
 ```
 
+### Functions
+
+```
+[ _b ]		_.bind
+[ _ba ]		_.bindAll
+[ _pa ]		_.partial
+[ _memo ]	_.memoize
+[ _delay ]	_.delay
+[ _defer ]	_.defer
+[ _throt ]	_.throttle
+[ _deb ]	_.debounce
+[ _once ]	_.once
+[ _after ]	_.after
+[ _now ]	_.now
+[ _wrap ]	_.wrap
+[ _comp ]	_.compose
+```
 
 ### Objects
 
