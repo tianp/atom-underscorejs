@@ -7,7 +7,6 @@ Speed up your javascript coding time with Underscore.js snippets.
 
 ```
 apm install underscorejs-snippets
-
 ```
 
 
