@@ -1,10 +1,15 @@
-# Atom Underscore.js Snippets
+# Underscore.js Snippets
 
 Speed up your javascript coding time with Underscore.js snippets.
 
-Currently this snippets still on early version and not published to APM yet. So please fork and help me to make this snippets ready to be published.
 
-If you still insist to use this snippets before published, download and put this snippets under directory **~/.atom/packages**
+## How To Install
+
+```
+apm install underscorejs-snippets
+
+```
+
 
 Say a hello! hello@tianpermana.com
 
