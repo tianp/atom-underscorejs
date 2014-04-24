@@ -120,6 +120,22 @@ Say a hello! hello@tianpermana.com
 [ _isu ]	_.isUndefined
 ```
 
+### Utility
+
+```
+[ _no ]		_.noConflict
+[ _id ]		_.identity
+[ _cons ]	_.constant
+[ _times ]	_.times
+[ _rand ]	_.random
+[ _mix ]	_.mixin
+[ _unid ]	_.uniqueId
+[ _esc ]	_.escape
+[ _unesc ]	_.unescape
+[ _res ]	_.result
+[ _tpl ]	_.template
+```
+
 ## License
 
 Copyright (c) 2014 Tian Permana
