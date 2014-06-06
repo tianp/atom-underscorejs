@@ -1,6 +1,6 @@
 {
   "name": "underscorejs-snippets",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Underscore.js snippets for Atom",
   "repository": "https://github.com/tianpermana/atom-underscorejs",
   "license": "MIT",
